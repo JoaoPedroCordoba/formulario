@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form>
+        
+        <label  for="nome">Nome</label>
+        <input class="cadastro"type="text" id="nome" name="nome">
+
+        <br>
+        
+        <label  for="senha">Senha</label>
+        <input class="cadastro" type="password" id="senha" name="senha" maxlength="10">
+
+        <br>
+
+        <label  for="">Idade</label>
+        <input class="cadastro" type="number" min="0" max="130">
+
+        <br>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea class="cadastro" name="mensagem" id="mensagem"  rows="5">
+            texto padrão
+        </textarea>
+        
+        <br>
+
+        <div>
+            <input type="checkbox" name="lieconcordo" id="lieconcordo">
+            <label for="lieconcordo">Li e concordo</label>
+        </div>
+
+        <br>
+        
+        <input type="button" value="enviar">
+    </form>
+
+</body>
+</html>
